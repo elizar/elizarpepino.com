@@ -15,12 +15,15 @@ html {
 }
 
 body {
+  position: relative;
   padding: 64px;
   font: normal 95%/150% 'Apercu Mono', sans-serif;
   font-size: 18px;
   max-width: 768px;
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+  background: transparent url('/img/bg.jpg') top right no-repeat;
+  background-attachment: fixed;
 }
 
 a, a:active, a:visited {
@@ -32,6 +35,10 @@ a, a:active, a:visited {
 a:hover {
   color: var(--link-color-hover);
   border-bottom-color: var(--link-color-hover);
+}
+
+header {
+  position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,9 +56,15 @@ p {
 }
 
 .title, .title:active {
+  display: inline-block;
+  width: 134px;
+  height: 48px;
+  text-indent: 30000px;
+  border: none;
   font-size: 1.5em;
   text-decoration: none;
-  border: none;
+  background: transparent url('/img/elizar.png') top center no-repeat;
+  background-size: contain;
 }
 
 .sub {
@@ -68,8 +81,8 @@ p {
 }
 
 ul.social {
-  list-style-type: none;
-  padding: .5em;
+  list-style-type: disclosure-open;
+  margin-left: 1.8em;
 }
 ul.social li {
   margin-bottom: 1em;
