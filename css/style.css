@@ -10,8 +10,8 @@
 }
 
 html {
-  --link-color: rgba(0,0,180,1);
-  --link-color-hover: rgba(0,50,255,1);
+  --link-color: rgba(0,0,255,1);
+  --link-color-hover: rgba(0,80,255,1);
 }
 
 body {
