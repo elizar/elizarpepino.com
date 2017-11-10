@@ -12,6 +12,7 @@
 html {
   --link-color: rgba(0,0,255,1);
   --link-color-hover: rgba(0,80,255,1);
+  overflow-x: hidden;
 }
 
 body {
