@@ -12,7 +12,6 @@
 html {
   --link-color: rgba(0,0,255,1);
   --link-color-hover: rgba(0,80,255,1);
-  overflow-x: hidden;
 }
 
 body {
@@ -40,6 +39,7 @@ a:hover {
 
 header {
   position: relative;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
